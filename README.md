@@ -1,4 +1,4 @@
-# Reduc Shopping Cart
+# Redux Shopping Cart
 
 ## Used Redux to add the basic shopping cart functionality
 
