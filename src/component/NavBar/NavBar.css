@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #00303f;
+}
+
+.cart_navbar {
+  padding: 40px;
+  width: 100%;
+}
+
+.navitems {
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #cae4db;
+}
+
+.nav_title {
+  margin: auto;
+  font-size: 3.5rem;
+  font-family: 'Space Mono', monospace;
+}
+
+.nav_titleDiv,
+.nav_cartDiv {
+  display: inline-block;
+}
+
+.cart_total {
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.cart_details {
+  vertical-align: baseline;
+  font-size: 1.7rem;
+  margin-left: 45vw;
+  font-family: 'Asul', sans-serif;
+}

@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+.cartItemComponent {
+  background-color: #cdac81;
+  margin: 30px auto;
+  text-align: center;
+  padding: 30px 0px;
+  width: 70%;
+  border: 10px solid #ecb390;
+  border-radius: 30px;
+  box-shadow: 1px 2px 15px 5px #23120b;
+}
+
+.itemImage {
+  border-radius: 30px;
+  height: 390px;
+  width: 370px;
+}
+
+.itemImageDiv {
+  border-right: 5px solid black;
+  padding-right: 10px;
+}
+
+.itemImageDiv,
+.itemMain {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.itemMain {
+  height: 100%;
+  margin-left: 10px;
+}
+
+.horLine {
+  margin-bottom: 0px;
+  height: 3px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #00303f;
+  border-radius: 30px;
+}
+
+.itemTitle {
+  margin-bottom: 0px;
+  font-family: 'Asul', sans-serif;
+  font-size: 1.5rem;
+  color: #00303f;
+}
+
+.itemPrice,
+.itemQuant {
+  display: inline-block;
+  margin: 10px 10px;
+  background-color: #00303f;
+  padding: 15px;
+  border-radius: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.actionButtonsDiv {
+  text-align: -webkit-center;
+  pad: 10px;
+}
+
+.actionBtn {
+  display: block;
+  background-color: #ffe5b9;
+  color: #00303f;
+  border: none;
+  margin-right: 1px;
+  margin-bottom: 4px;
+  font-size: 1.5rem;
+  padding: 10px;
+  width: 30%;
+  border-radius: 150px;
+  outline: none;
+}
+
+.actionBtn:hover {
+  background-color: #cae4db;
+  box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.42);
+}
