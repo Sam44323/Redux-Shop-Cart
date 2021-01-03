@@ -28,6 +28,9 @@ const CartItem = (props) => {
           >
             -
           </button>
+          <button className='deleteBtn' onClick={props.deleteItem}>
+            🗑
+          </button>
         </div>
       </div>
     </div>

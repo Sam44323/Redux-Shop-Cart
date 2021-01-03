@@ -34,6 +34,10 @@ input {
   outline: none;
 }
 
+.addToList:hover {
+  background-color: aliceblue;
+}
+
 input:focus {
   border: none;
   outline: none;

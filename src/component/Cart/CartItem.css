@@ -19,6 +19,21 @@
   width: 370px;
 }
 
+.deleteBtn {
+  border: 3px solid salmon;
+  outline: none;
+  background-color: transparent;
+  padding: 10px;
+  width: 30%;
+  margin-top: 10px;
+  border-radius: 100px;
+  font-size: 1.5rem;
+}
+
+.deleteBtn:hover {
+  background-color: #ef4f4f;
+}
+
 .itemImageDiv {
   border-right: 5px solid black;
   padding-right: 10px;
@@ -63,7 +78,7 @@
 
 .actionButtonsDiv {
   text-align: -webkit-center;
-  pad: 10px;
+  padding: 10px;
 }
 
 .actionBtn {

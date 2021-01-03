@@ -9,12 +9,13 @@ const Cart = (props) => {
       <CartItem
         key={item.id}
         itemId={item.id}
-        name={item.name}
+        name={item.title}
         image={item.image}
         price={item.price}
         quantity={item.quantity}
         increaseQty={() => props.incQty(item.id)}
         decreaseQty={() => props.decQty(item.id)}
+        deleteItem={() => props.deleteItem(item.id)}
       />
     );
   });
